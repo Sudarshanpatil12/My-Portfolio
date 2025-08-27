@@ -141,7 +141,7 @@ export default function Hero() {
               <Button
                 variant="solid"
                 style="primary"
-                href=""
+                href="https://drive.google.com/file/d/1SH0Oj9FrlFnZINrl3HplE6GIB5bESmjE/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center w-fit gap-x-6"
