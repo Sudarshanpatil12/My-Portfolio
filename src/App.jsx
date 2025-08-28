@@ -12,10 +12,13 @@ import {
   Timeline,
 } from "./components";
 import classNames from "classnames";
+import TechCursor from "./components/TechCursor";
+
 
 const App = () => {
   return (
     <div className="bg-primary dark:bg-primary w-full overflow-hidden font-space">
+      <TechCursor />
       <Navbar />
       <Hero />
 
