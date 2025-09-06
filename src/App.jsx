@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./style";
 import {
   Navbar,
@@ -13,9 +13,23 @@ import {
 } from "./components";
 import classNames from "classnames";
 import TechCursor from "./components/TechCursor";
-
+import Loader from "./components/Loader"; 
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3200); 
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />; 
+  }
+
   return (
     <div className="bg-primary dark:bg-primary w-full overflow-hidden font-space">
       <TechCursor />
@@ -30,8 +44,7 @@ const App = () => {
         )}
       >
         <div className={classNames(styles.boxWidth)}>
-                    <Timeline />
-
+          <Timeline />
           <Projects />
           <Skills />
           <Education />
