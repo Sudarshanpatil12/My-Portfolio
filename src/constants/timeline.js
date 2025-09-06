@@ -1,96 +1,28 @@
 export const timelineData = [
-   {
-  title: "Web Developer Intern",
-  company: "Rajni Tech Foundation",
-  period: "Sep 2025 – Present",
-  achievements: [
-    {
-      text: "Developing responsive web applications with modern frontend technologies.",
-      highlights: ["ReactJS", "TailwindCSS", "JavaScript"],
-    },
-    {
-      text: "Integrating REST APIs and managing data flow between frontend and backend.",
-      highlights: ["API Integration", "JSON", "Fetch/Axios"],
-    },
-    {
-      text: "Collaborating with team on live social and technical projects.",
-      highlights: ["teamwork", "agile workflow"],
-    },
-    {
-      text: "Building reusable UI components and optimizing performance.",
-      highlights: ["component-based design", "performance optimization"],
-    },
-    {
-      text: "Using Git and GitHub for version control and project collaboration.",
-      highlights: ["Git", "GitHub", "version control"],
-    },
-  ],
-  techStack: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "ReactJS",
-    "NodeJS",
-    "ExpressJS",
-    "MongoDB",
-    "TailwindCSS",
-    "Git",
-  ],
-},
-
-
   {
-    title: "Core Team Member",
-    company: "GDG-On Campus, RGPV Bhopal",
-    period: "Sep 2024 – Aug 2025",
+    title: "Frontend Developer Intern",  // 🔹 Changed title
+    company: "Rajni Tech Foundation",
+    period: "Sep 2025 – Present",
     achievements: [
       {
-        text: "Organized workshops and hackathons on Google Cloud, Firebase, and modern web technologies.",
-        highlights: ["workshops", "hackathons", "Google Cloud", "Firebase"],
+        text: "Designed and developed user-friendly web interfaces with modern frontend tools.",
+        highlights: ["ReactJS", "TailwindCSS", "JavaScript"],
       },
       {
-        text: "Created engaging content and promoted events to strengthen the student developer community.",
-        highlights: ["community building", "content creation"],
+        text: "Integrated REST APIs, handled authentication, and optimized data flow.",
+        highlights: ["API Integration", "Authentication", "Axios"],
       },
       {
-        text: "Facilitated hands-on sessions and mentorship for students learning cloud and web development.",
-        highlights: ["mentorship", "hands-on sessions"],
-      },
-    ],
-    techStack: ["Google Cloud", "Firebase", "Web Development"],
-  },
-  {
-    title: "Full Stack Development Course",
-    company: "Coding Thinker",
-    period: "Apr 2024 – Oct 2025",
-    achievements: [
-      {
-        text: "Completed hands-on training in full stack web development covering frontend, backend, and database management.",
-        highlights: ["frontend", "backend", "databases"],
+        text: "Contributed to collaborative projects following agile methodologies.",
+        highlights: ["teamwork", "scrum meetings"],
       },
       {
-        text: "Built and deployed multiple real-world projects as part of the course.",
-        highlights: ["real-world projects", "deployment"],
+        text: "Improved UI performance and accessibility across devices.",
+        highlights: ["responsive design", "performance tuning"],
       },
       {
-        text: "Key Projects:",
-        highlights: [],
-      },
-      {
-        text: "Grocery Delivery App – Full-stack application with authentication, cart management, and order tracking.",
-        highlights: ["ReactJS", "NodeJS", "MongoDB"],
-      },
-      {
-        text: "Amazon Clone – Responsive e-commerce UI with product catalog, search, and cart features.",
-        highlights: ["HTML", "CSS", "JavaScript"],
-      },
-      {
-        text: "Weather App – Provides real-time weather updates using OpenWeatherMap API.",
-        highlights: ["JavaScript", "API Integration"],
-      },
-      {
-        text: "CGPA Calculator – Lightweight web app to calculate GPA/CGPA using HTML, CSS, and JavaScript.",
-        highlights: ["JavaScript", "calculator logic"],
+        text: "Maintained project workflows with Git and GitHub.",
+        highlights: ["Git", "GitHub", "version control"],
       },
     ],
     techStack: [
@@ -102,22 +34,93 @@ export const timelineData = [
       "ExpressJS",
       "MongoDB",
       "TailwindCSS",
+      "Git",
+      "Figma",   // 🔹 Added Figma
     ],
   },
+
+  {
+    title: "Core Team Member",
+    company: "GDG-On Campus, RGPV Bhopal",
+    period: "Sep 2024 – Aug 2025",
+    achievements: [
+      {
+        text: "Planned and executed events on Google Cloud, Firebase, and emerging web technologies.",
+        highlights: ["workshops", "hackathons", "Google Cloud", "Firebase"],
+      },
+      {
+        text: "Created blogs, posters, and online content to promote developer community events.",
+        highlights: ["community building", "digital content"],
+      },
+      {
+        text: "Mentored juniors in web and cloud technologies during community sessions.",
+        highlights: ["mentorship", "peer learning"],
+      },
+    ],
+    techStack: ["Google Cloud", "Firebase", "Web Development", "Event Management"], // 🔹 Added Event Management
+  },
+
+  {
+    title: "Full Stack Development Course",
+    company: "Coding Thinker",
+    period: "Apr 2024 – Oct 2025",
+    achievements: [
+      {
+        text: "Completed training in full stack development covering frontend, backend, and database systems.",
+        highlights: ["frontend", "backend", "databases"],
+      },
+      {
+        text: "Built, deployed, and showcased real-world projects as part of the curriculum.",
+        highlights: ["real-world projects", "deployment"],
+      },
+      {
+        text: "Key Projects:",
+        highlights: [],
+      },
+      {
+        text: "Grocery Delivery App – Authentication, cart system, and live order tracking.",
+        highlights: ["ReactJS", "NodeJS", "MongoDB"],
+      },
+      {
+        text: "Amazon Clone – Built responsive UI with catalog, search, and cart features.",
+        highlights: ["HTML", "CSS", "JavaScript"],
+      },
+      {
+        text: "Weather App – Delivered live weather updates via OpenWeatherMap API.",
+        highlights: ["JavaScript", "API Integration"],
+      },
+      {
+        text: "CGPA Calculator – Simple yet efficient GPA/CGPA calculator web app.",
+        highlights: ["JavaScript", "logic building"],
+      },
+    ],
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "TailwindCSS",
+      "GitHub Actions", // 🔹 Added GitHub Actions
+    ],
+  },
+
   {
     title: "Member",
     company: "Asper Coding Club, RGPV Bhopal",
     period: "Feb 2023 – Sep 2023",
     achievements: [
       {
-        text: "Strengthened DSA and problem-solving skills through coding challenges and contests.",
+        text: "Enhanced problem-solving skills by actively participating in coding challenges.",
         highlights: ["DSA", "problem-solving"],
       },
       {
-        text: "Collaborated with peers on coding projects and technical discussions.",
-        highlights: ["collaboration", "team projects"],
+        text: "Worked with peers on mini-projects and discussed algorithms in team sessions.",
+        highlights: ["collaboration", "projects"],
       },
     ],
-    techStack: ["C", "Java", "DSA", "Problem Solving"],
+    techStack: ["C", "Java", "DSA", "Problem Solving", "Algorithms"], // 🔹 Added Algorithms
   },
 ];
