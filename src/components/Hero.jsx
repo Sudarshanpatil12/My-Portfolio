@@ -9,7 +9,8 @@ export default function Hero() {
   return (
     <div id="about" className="relative isolate pt-32 pb-24 px-6 sm:px-16">
       <svg
-        className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+       className="absolute inset-0 -z-10 h-full w-full bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] [background-size:20px_20px]"
+
         aria-hidden="true"
       >
         <defs>

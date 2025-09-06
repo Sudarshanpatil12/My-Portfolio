@@ -1,8 +1,48 @@
 export const timelineData = [
+   {
+  title: "Web Developer Intern",
+  company: "Rajni Tech Foundation",
+  period: "Sep 2025 – Present",
+  achievements: [
+    {
+      text: "Developing responsive web applications with modern frontend technologies.",
+      highlights: ["ReactJS", "TailwindCSS", "JavaScript"],
+    },
+    {
+      text: "Integrating REST APIs and managing data flow between frontend and backend.",
+      highlights: ["API Integration", "JSON", "Fetch/Axios"],
+    },
+    {
+      text: "Collaborating with team on live social and technical projects.",
+      highlights: ["teamwork", "agile workflow"],
+    },
+    {
+      text: "Building reusable UI components and optimizing performance.",
+      highlights: ["component-based design", "performance optimization"],
+    },
+    {
+      text: "Using Git and GitHub for version control and project collaboration.",
+      highlights: ["Git", "GitHub", "version control"],
+    },
+  ],
+  techStack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "TailwindCSS",
+    "Git",
+  ],
+},
+
+
   {
     title: "Core Team Member",
     company: "GDG-On Campus, RGPV Bhopal",
-    period: "Sep 2024 – Sep 2025",
+    period: "Sep 2024 – Aug 2025",
     achievements: [
       {
         text: "Organized workshops and hackathons on Google Cloud, Firebase, and modern web technologies.",

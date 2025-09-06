@@ -13,7 +13,7 @@ import {
 } from "./components";
 import classNames from "classnames";
 import TechCursor from "./components/TechCursor";
-import Loader from "./components/Loader"; 
+import Loader from "./components/Loader";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -21,13 +21,13 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3200); 
+    }, 3200);
 
     return () => clearTimeout(timer);
   }, []);
 
   if (loading) {
-    return <Loader />; 
+    return <Loader />;
   }
 
   return (
